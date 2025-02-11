@@ -2,6 +2,7 @@ import java.util.*;
 public class linearsearch {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
+                   //0 1 2  3  4
         int[] arr={10,20,30,40,50};
         int key=sc.nextInt();
         search(arr,key);
@@ -16,6 +17,7 @@ public class linearsearch {
                 System.out.println("found index :"+i);
                 flag=1;
             }
+
         }
         if(flag!=1)
         {
